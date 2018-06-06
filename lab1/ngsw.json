@@ -1,0 +1,71 @@
+{
+  "configVersion": 1,
+  "index": "/lab1/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/lab1/favicon.ico",
+        "/lab1/index.html",
+        "/lab1/main.32452a8e5b679f2b2dce.js",
+        "/lab1/polyfills.e3633a42d1123afc5fc9.js",
+        "/lab1/runtime.a66f828dca56eeb90e02.js",
+        "/lab1/styles.34b92429d809e45468f6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/lab1/assets/icons/icon-128x128.png",
+        "/lab1/assets/icons/icon-144x144.png",
+        "/lab1/assets/icons/icon-152x152.png",
+        "/lab1/assets/icons/icon-192x192.png",
+        "/lab1/assets/icons/icon-384x384.png",
+        "/lab1/assets/icons/icon-512x512.png",
+        "/lab1/assets/icons/icon-72x72.png",
+        "/lab1/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/lab1/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/lab1/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/lab1/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/lab1/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/lab1/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/lab1/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/lab1/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/lab1/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/lab1/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/lab1/index.html": "dd48a939b58b5559ef85a4d5e39be249acd54cbe",
+    "/lab1/main.32452a8e5b679f2b2dce.js": "c30c46be5fb9b5de7f4b16f0f66eec84f62b3708",
+    "/lab1/polyfills.e3633a42d1123afc5fc9.js": "5261a4729f780dd900641be94bd321182959641a",
+    "/lab1/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/lab1/styles.34b92429d809e45468f6.css": "8ba8257375c6f887c097ce8a2250bbd74357e3da"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
